@@ -31,9 +31,9 @@ if __name__ == "__main__":
     # Hyperparameters
     vocab_size = 50257  # GPT-2 tokenizer vocab size
     dim = 256
-    num_layers = 8
-    num_heads = 8
-    num_experts = 512 * 512  
+    num_layers = 6
+    num_heads = 6
+    num_experts = 384 * 384  
     top_k = 16
     batch_size = 1
     num_epochs = 20
