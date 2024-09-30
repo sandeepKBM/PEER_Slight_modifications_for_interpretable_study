@@ -35,8 +35,8 @@ if __name__ == "__main__":
     num_heads = 8
     num_experts = 512 * 512  
     top_k = 16
-    batch_size = 6
-    num_epochs = 10
+    batch_size = 1
+    num_epochs = 20
     learning_rate = 1e-4
     
     # Initialize tokenizer and model
